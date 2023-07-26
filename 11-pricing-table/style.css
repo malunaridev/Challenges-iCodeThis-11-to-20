@@ -106,3 +106,48 @@ button {
 .button-orange:hover {
   background-color: #ffd09b;
 }
+
+@media (max-width: 1150px) {
+  * {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 920px) {
+  * {
+    font-size: 40%;
+  }
+}
+
+@media (max-width: 750px) {
+  * {
+    font-size: 30%;
+  }
+}
+
+@media (max-width: 550px) {
+  * {
+    font-size: 50%;
+  }
+ main {
+  width: auto;
+  height:auto;
+  flex-direction: column;
+  gap:10rem;
+ }
+ .content-info{
+  gap:2rem;
+ }
+}
+
+@media (max-width: 420px) {
+  * {
+    font-size: 40%;
+  }
+}
+
+@media (max-width: 335px) {
+  * {
+    font-size: 35%;
+  }
+}
