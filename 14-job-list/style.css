@@ -40,10 +40,10 @@ h1 {
   cursor: pointer;
 }
 
-#job-list{
-    display: flex;
-    flex-direction: column;
-    gap: .7rem;
+#job-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
 }
 .job {
   width: 93rem;
@@ -73,7 +73,6 @@ h1 {
 
 .job-area,
 .job-city {
-  
   font-size: 1.5rem;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -81,13 +80,11 @@ h1 {
 }
 
 .job-area {
-    width: 13rem;
+  width: 13rem;
 }
 
-
-
 .job-local {
-    width: 25rem;  
+  width: 25rem;
   display: flex;
   vertical-align: middle;
 }
@@ -101,4 +98,49 @@ h1 {
 i {
   font-size: 3rem;
   color: #8b8c99;
+}
+
+@media (max-width: 1000px) {
+  * {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 770px) {
+  * {
+    font-size: 40%;
+  }
+}
+
+@media (max-width: 630px) {
+  * {
+    font-size: 70%;
+  }
+  main {
+    height: auto;
+    width: auto;
+  }
+  #heading {
+    flex-direction: column;
+  }
+  .job {
+    height: auto;
+    width: auto;
+    flex-direction: column;
+  }
+  .job-title {
+    width: auto;
+  }
+  .job-area {
+    width: auto;
+  }
+  .job-local {
+    width: auto;
+  }
+}
+
+@media (max-width: 370px) {
+  * {
+    font-size: 50%;
+  }
 }
