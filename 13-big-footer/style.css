@@ -92,3 +92,54 @@ i {
   font-size: 1.3rem;
   color: #939db3;
 }
+
+@media (max-width: 1150px) {
+  * {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 900px) {
+  * {
+    font-size: 40%;
+  }
+}
+
+@media (max-width: 720px) {
+  * {
+    font-size: 35%;
+  }
+}
+
+@media (max-width: 650px) {
+  * {
+    font-size: 60%;
+  }
+  main {
+    width: auto;
+    height:auto;
+    gap: 5rem;
+  }
+  .content {
+    flex-direction: column;
+    gap: 10rem;
+  }
+}
+
+@media (max-width: 510px) {
+  * {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 420px) {
+  * {
+    font-size: 40%;
+  }
+}
+
+@media (max-width: 340px) {
+  * {
+    font-size: 35%;
+  }
+}
